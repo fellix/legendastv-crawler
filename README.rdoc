@@ -1,6 +1,15 @@
-= legendastv-crawler
+= Legendas.tv Crawler
 
-Description goes here.
+Projeto simples para capturar as legendas destaques e mais baixas do site http://legendas.tv
+
+== Usage
+
+  LegendasTV::Crawler.most_downloaded
+  # Lista as 20 mais baixas
+  LegendasTV::Crawler.highlights
+  # Lista os 24 destaques
+  
+E isso é tudo :)
 
 == Contributing to legendastv-crawler
  

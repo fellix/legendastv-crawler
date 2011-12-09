@@ -10,11 +10,12 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'rake'
-
+require 'legendas_tv/version'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "legendastv-crawler"
+  gem.version     = LegendasTV::Version::STRING
   gem.homepage = "http://github.com/fellix/legendastv-crawler"
   gem.license = "MIT"
   gem.summary = %Q{Crawler for http://legendas.tv to see the most dowloaded subtitles}

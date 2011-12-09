@@ -1,7 +1,7 @@
-require 'extensions/string'
+require 'legendas_tv/extensions/string'
 module LegendasTV
-  autoload :Crawler, "crawler"
-  autoload :Subtitle, "crawler/subtitle"
+  autoload :Crawler, "legendas_tv/crawler"
+  autoload :Subtitle, "legendas_tv/crawler/subtitle"
   
   BASE_URL = "http://legendas.tv"
 end
