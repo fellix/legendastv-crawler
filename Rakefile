@@ -10,6 +10,7 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'rake'
+$:.unshift 'lib'
 require 'legendas_tv/version'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
